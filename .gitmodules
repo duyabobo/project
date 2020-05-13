@@ -1,6 +1,3 @@
-[submodule "module"]
-	path = module
-	url = https://github.com/duyabobo/module.git
-[submodule "module2"]
+[submodule "grpc_module"]
 	path = module2
 	url = https://github.com/duyabobo/module.git

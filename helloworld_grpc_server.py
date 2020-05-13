@@ -3,8 +3,8 @@
 from concurrent import futures
 import time
 import grpc
-from module2 import helloworld_pb2
-from module2 import helloworld_pb2_grpc
+from grpc_module import helloworld_pb2
+from grpc_module import helloworld_pb2_grpc
 
 # 实现 proto 文件中定义的 GreeterServicer
 class Greeter(helloworld_pb2_grpc.GreeterServicer):
